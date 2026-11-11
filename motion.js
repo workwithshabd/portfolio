@@ -22,14 +22,8 @@ gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
     gsap.timeline({ defaults: { ease: 'power3.out' } })
       .from('.line', { scaleX: 0, duration: 0.65, clearProps: 'transform' }, 0)
       .from('.title-line', { yPercent: 108, duration: 0.8, stagger: 0.11, clearProps: 'transform' }, 0.04)
-      .from('.place', { y: 8, opacity: 0, duration: 0.45, clearProps: 'transform,opacity' }, 0.34)
-      .from('.img', { clipPath: 'inset(0 0 12% 0)', duration: 0.95, clearProps: 'clipPath' }, 0.15);
+      .from('.place', { y: 8, opacity: 0, duration: 0.45, clearProps: 'transform,opacity' }, 0.34);
   }
-
-  gsap.fromTo('.img img', { scale: 1.035, yPercent: 1 }, {
-    scale: 1.13, yPercent: -3, ease: 'none',
-    scrollTrigger: { trigger: '.img', start: 'top bottom', end: 'bottom top', scrub: true },
-  });
 
   for (const item of gsap.utils.toArray('.reveal')) {
     if (item.getBoundingClientRect().top < innerHeight) continue;

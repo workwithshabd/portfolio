@@ -1,6 +1,6 @@
 # Shabd Prakash — Portfolio
 
-The original single-page portfolio with Montserrat, the paper texture and the original hero image. GSAP handles the entrance and scroll motion and respects reduced-motion preferences.
+The original single-page portfolio with Montserrat and the paper texture. GSAP handles the entrance and scroll motion and respects reduced-motion preferences.
 
 Use Node.js 26 to run locally:
 
