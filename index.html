@@ -7,82 +7,126 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/android-chrome-512x512.png" type="image/x-icon">
-    <title>SHABD</title>
+    <meta name="description" content="Shabd Prakash — software engineer and musician in New Delhi.">
+    <title>SHABD — Portfolio</title>
 </head>
 
 <body>
+    <a class="skip-link" href="#content">Skip to content</a>
     <div id="main">
-        <div class="nav">
-            <div class="navp1">
-                <div class="menu">
-                    <h4>0</h4>
-                    <h4>menu</h4>
-                </div>
-                <div class="des">
-                    <h3>Web and App Developer | DevOps | UI/UX Designer | Ai enthusiast | Musician - producer , mixing
-                        and
-                        mastering
-                    </h3>
-                </div>
-            </div>
-            <div class="navp2">
-                <h4>work</h4>
-                <div class="store">
-                    <div class="pill">
+        <header class="nav">
+            <details class="menu">
+                <summary><span aria-hidden="true">0</span><span>menu</span></summary>
+                <nav aria-label="Menu">
+                    <a href="#intro">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </details>
+            <p class="des">Web and App Developer | DevOps | UI/UX Designer | AI enthusiast | Musician — production, mixing and mastering</p>
+            <nav class="navp2" aria-label="Portfolio">
+                <a href="#work">work</a>
+                <a class="store" href="#about"><span class="pill" aria-hidden="true"></span>about</a>
+                <a href="#contact">let’s chat <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a>
+            </nav>
+        </header>
+        <div class="line" aria-hidden="true"></div>
+        <main id="content" tabindex="-1">
+            <div class="page-1">
+                <section id="intro" aria-labelledby="name">
+                    <h1 id="name"><span class="title-mask"><span class="title-line">shabd prakash</span></span><span class="title-mask"><span class="title-line">software engineer</span></span></h1>
+                    <div class="place">
+                        <p>(New Delhi, India)</p>
+                        <a href="#about"><i class="ri-arrow-right-down-line" aria-hidden="true"></i> scroll down</a>
+                    </div>
+                </section>
+                <div class="img"><img src="img/e1.jpg" width="1920" height="1080" alt=""></div>
+                <section id="about" class="about-s reveal" aria-labelledby="about-title">
+                    <h2>As a web developer, I craft digital experiences that captivate and engage users.</h2>
+                    <div class="abp2">
+                        <p id="about-title">(about me)</p>
+                        <p class="bio">I’m Shabd, a software engineer and musician based in New Delhi. I build web apps and produce, mix, and master music. Recording ideas and experimenting with sound have shaped some of my favorite projects.</p>
+                        <div class="icons">
+                            <a href="https://youtube.com/@shabdprksh" aria-label="YouTube"><i aria-hidden="true" class="ri-youtube-fill"></i></i></a>
+                            <a href="https://twitter.com/shabdprksh" aria-label="X"><i aria-hidden="true" class="ri-twitter-x-line"></i></a>
+                            <a href="https://www.instagram.com/shabdprksh/" aria-label="Instagram"><i aria-hidden="true" class="ri-instagram-line"></i></a>
+                            <a href="https://www.linkedin.com/in/shabdprksh/" aria-label="LinkedIn"><i aria-hidden="true" class="ri-linkedin-box-fill"></i></a>
+                        </div>
 
                     </div>
-                    <h4 id="store">about</h4>
-                </div>
-                <h4>lets chat<i class="ri-arrow-right-up-line"></i></h4>
-
+                </section>
             </div>
-        </div>
-        <div class="line">
-
-        </div>
-        <div class="page-1">
-            <div id="intro">
-                <h1>shabd prakash<br>software engineer</h1>
-                <div class="place">
-                    <h3>(New Delhi, India)
-                    </h3>
-                    <h3><i class="ri-arrow-right-down-line"></i>scroll down</h3>
-                </div>
-            </div>
-            <div class="img"> <img src="img/e1.jpg" alt=""></div>
-            <div class="about-s">
-                <h2>As a web developer, I craft digital experiences that captivate and engage users.</h2>
-                <div class="abp2">
-                    <h4>(about me)</h4>
-                    <div class="icons">
-                        <a href="https://youtube.com/@shabdprksh"><i class="ri-youtube-fill"></i></i></a>
-                        <a href="https://twitter.com/shabdprksh"><i class="ri-twitter-x-line"></i></a>
-                        <a href="https://www.instagram.com/shabdprksh/"><i class="ri-instagram-line"></i></a>
-                        <a href="https://www.linkedin.com/in/shabdprksh/"><i class="ri-linkedin-box-fill"></i></a>
+            <section id="work" class="page-2" aria-labelledby="work-title">
+                <div class="work">
+                    <div class="work1">
+                        <h2 id="work-title">(what i do)</h2>
+                        <i class="ri-arrow-right-down-line" aria-hidden="true"></i>
                     </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="page-2">
-            <div class="work">
-                <div class="work1">
-                    <h4>(what i do)</h4>
-                    <i class="ri-arrow-right-down-line"></i>
-                </div>
-                <div class="work2">
-                    <div class="wp2-1">
-                        <h5>fdedsfd</h5>
-                    </div>
-                    <div class="wp2-2">
-                        <h5>work-part2.2</h5>
+                    <div class="work2">
+                        <article class="wp2-1 reveal">
+                            <span class="work-index" aria-hidden="true">01</span>
+                            <div>
+                                <p class="project-type">Web app · Audio recording</p>
+                                <h3>VoiceVault</h3>
+                                <p>An offline voice recorder for capturing melodies before they slip away, with optional Google Drive backup.</p>
+                                <details class="project-note">
+                                    <summary>How it works</summary>
+                                    <p>Audio chunks are saved to IndexedDB as you record, so playback works offline. If Drive backup is enabled, a background queue handles uploads when you reconnect.</p>
+                                </details>
+                            </div>
+                        </article>
+                        <article class="wp2-2 reveal">
+                            <span class="work-index" aria-hidden="true">02</span>
+                            <div>
+                                <p class="project-type">Browser instrument · Web Audio</p>
+                                <h3><a href="https://gesture-synthesizer.vercel.app/">Gesture Synth <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></h3>
+                                <p>A browser instrument that turns hand gestures into chords. The camera tracks both hands so you can shape chords and change volume as you play.</p>
+                                <a class="project-action" href="https://github.com/workwithshabd/Gesture_Synth">View source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a>
+                            </div>
+                        </article>
+                        <article class="reveal">
+                            <span class="work-index" aria-hidden="true">03</span>
+                            <div>
+                                <p class="project-type">Front end · Interface design</p>
+                                <h3><a href="https://quanverse-redesign.vercel.app/">Quanverse Redesign <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a></h3>
+                                <p>A website redesign exploring typography, layout, and motion in React.</p>
+                                <a class="project-action" href="https://github.com/workwithshabd/quanverse-redesign">View source <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a>
+                            </div>
+                        </article>
                     </div>
                 </div>
-
-            </div>
-        </div>
+            </section>
+            <section id="skills" class="page-2" aria-labelledby="skills-title">
+                <div class="work">
+                    <div class="work1">
+                        <h2 id="skills-title">(skills)</h2>
+                        <i class="ri-arrow-right-down-line" aria-hidden="true"></i>
+                    </div>
+                    <dl class="skills-list work2 reveal">
+                        <div><dt>Web development</dt><dd>React, JavaScript, Node.js, Express</dd></div>
+                        <div><dt>Audio and storage</dt><dd>Web Audio, IndexedDB, Google Drive integration</dd></div>
+                        <div><dt>Design and music</dt><dd>Interface design, GSAP, production, mixing and mastering</dd></div>
+                    </dl>
+                </div>
+            </section>
+            <section id="contact" class="contact" aria-labelledby="contact-title">
+                <div class="contact-inner reveal">
+                    <h2 id="contact-title">let’s chat<span>.</span></h2>
+                    <p>Have a project in mind? Reach out on LinkedIn, or find more of my work on GitHub.</p>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/shabdprksh/">LinkedIn <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a>
+                        <a href="https://github.com/workwithshabd">GitHub <i class="ri-arrow-right-up-line" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <span>shabd prakash</span>
+            <a href="#intro">back to top <i class="ri-arrow-up-line" aria-hidden="true"></i></a>
+        </footer>
     </div>
-
+    <script type="module" src="./motion.js"></script>
 </body>
-
 </html>
